@@ -129,3 +129,6 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # the actual path on your drive
 STATIC_URL = '/static/'  # the virtual path
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # the actual path on your drive
+MEDIA_URL = '/media/'  # the virtual path
